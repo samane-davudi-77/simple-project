@@ -1,6 +1,9 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+this is a simple project for me to practice react router and redux
+i used slice in redux, you can see it in features.
+as for the style i used both react-bootstrap and css.
 
 ## Available Scripts
 
