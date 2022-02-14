@@ -1,0 +1,321 @@
+.Appcontainer {  
+  text-align: center; 
+
+  
+} 
+.App-container {
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.note {
+ 
+  background-color: rgb(66, 223, 235);
+  margin-bottom: 10px;
+  padding: 1rem;
+  border-radius: 10px;
+  min-height: 200px;
+  display: flex;
+  white-space: pre-wrap;
+  flex-direction: column;
+  text-align: right;
+  justify-content: space-between;
+}
+.newnote {
+  background-color: rgb(228, 165, 196);
+  margin-bottom: 10px;
+  
+  padding: 1rem;
+  border-radius: 10px;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+textarea{
+  border: none;
+  resize: none;
+  text-align: right;
+  background-color: rgb(228, 165, 196);
+
+}
+textarea:focus{
+  outline: none;
+}
+.save {
+  background-color: rgb(183, 191, 206);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+.save:hover{
+  background-color: cornsilk;
+}
+.notelist {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  
+}
+.note-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mysearch {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.myinput {
+  display: flex;
+  background-color: rgb(211, 207, 207);
+  padding: 10px;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+.mylogin {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  margin-top: 5%;
+}
+.mylogin-container {
+  width: 30%;
+  padding-bottom: 10%;
+  padding-top: 4%;
+  background-color: rgb(216, 230, 229);
+  border: solid 1px rgb(216, 230, 229);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.myloginformheader {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8%;
+  margin-right: 10%;
+}
+.login_title {
+  position: absolute;
+  right: 30px;
+  top:15%;
+}
+.myformimg {
+  margin-left: 40px;
+}
+.myimg {
+  opacity: 0.6;
+}
+.mygrid {
+  display: grid;
+  grid-template-columns: 95% 5%;
+  padding: 10px;
+}
+.myrowgrid {
+  display: grid;
+  margin-top: 100%;
+  grid-row-gap: 5%;
+  grid-template-columns: 50px;
+  grid-template-rows: 6% 6% 6%;
+  padding: 10px;
+}
+.myheaderimg {
+  display: flex;
+  justify-content: space-between;
+}
+.myheadbtn {
+  position: absolute;
+  top: 70%;
+  left: 53%;
+  width: 20%;
+  height: 10%;
+}
+.myheadbtn1 {
+  position: absolute;
+  top: 70%;
+  left: 28%;
+  width: 20%;
+  height: 10%;
+}
+.mycard {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  width: 50%;
+  height: 40%;
+  background:transparent;
+  
+}
+.myheadcard2 {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  width: 50%;
+  height: 40%;
+  background-color: rgba(252, 251, 247, 0.555);
+
+  align-items: center;
+  
+}
+.myheadcard3 {
+  position: absolute;
+  top: 65%;
+  left: 5%;
+  width: 50%;
+  height: 40%;
+  background-color: rgba(252, 251, 247, 0.555);
+  align-items: center;
+  
+}
+.myhead2btn {
+  margin-top: 20%;
+  margin-right: 60%;
+}
+
+.myfontsize {
+  font-size: 2rem;
+}
+.mybody {
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+.mysidenav {
+  width: 20%;
+  position:absolute;
+  left: 5px;
+  border-style: solid;
+  margin-top: 5%;
+  border-width: 1px;
+  border-color: rgb(171, 209, 231);
+
+
+  
+}
+.mysidenavli {
+  list-style: none;
+  margin-bottom: 1px;
+  background-color: rg(211, 217, 221);
+  
+}  
+.mysidenav a {
+  border: solid 1px rgb(0, 0, 0);
+  padding: 20px;
+}
+.mysidenav a:hover {
+  background-color: rgb(155, 181, 214);
+}
+.mysecondcard {
+  position: absolute;
+  bottom: 0%;
+  top: 120%;
+  left: 25%;
+  width:45%;
+  height: 10%;
+  display: flex;
+  background-color: #262727;
+  border-radius: 20px;
+  justify-content: center;
+}
+.mynav2 {
+ width: 100%;
+ height: 40%;
+ display: grid;
+ grid-template-columns: 35% 30% 45%;
+ border-radius: 20px;
+}
+.mysecondheader {
+  width: 100%;
+  height: 600px;
+}
+.mysheader{
+  background-color: rgb(125, 206, 180);
+  border-radius: 20px;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.myheader3 {
+  width: 100%;
+  height: 500px;
+ 
+
+}
+.footer1 {
+  width: 100%;
+  height: 30%;
+position: absolute;
+margin-top: 50%;  
+}
+.mylayout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.myfooterimg {
+  width: 20%;
+  margin-right: 30px;
+}
+.mybodystyle {
+  display: flex;
+  justify-content:space-between;
+}
+.myp {
+  width: 70%;
+  display: flex;
+  height: 400px;
+  margin-top: 5%;
+  margin-left: 25%;
+  border: solid 1px rgb(100, 100, 100);
+}
+.mypostbody {
+  margin-left: 40%;
+}
+.mycardpost {
+  margin-left: 20%;
+}
+.mycbutton {
+  height: 50px;
+  margin-top: 35%;
+  margin-left: 20px;
+}
+.myheader3img {
+  position: absolute;
+  left: 10%;
+  width: 25%;
+  height: 70%;
+
+}
+.myboximg2 {
+  width: 100%;
+  padding-left: 50px;
+
+}
+.myboximg3 {
+  width: 80%;
+
+}
+.my3title {
+  margin-top: 30%;
+}
+.my3title3 {
+  border-right: solid 5px rgb(94, 218, 218);
+  border-top: solid 5px rgb(94, 218, 218);
+  border-bottom: solid 5px rgb(94, 218, 218);
+  border-bottom-right-radius: 150px ;
+  border-top-right-radius: 150px ;
+  position: absolute;
+  width: 40%;
+  height: 30%;
+  margin-top: 5%;
+  left: 0px;
+}
